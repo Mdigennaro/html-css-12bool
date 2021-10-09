@@ -2,10 +2,23 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.box{
+.box, .box-nesting{
   padding: 15px;
   background-color: blue;
   color: white;
   text-align: center;
   border: 1px solid white;
+}
+
+.box-nesting{
+  border-color: blue;
+  background-color: limegreen;
+}
+
+.space{
+  height: 25px;
+}
+
+.center{
+  height: 50px;
 }
